@@ -1,0 +1,50 @@
+{
+  "components": [
+    {
+      "label": "Book to Pack*",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_030594y",
+        "columns": null
+      },
+      "id": "Field_17l5j5z",
+      "key": "book",
+      "description": "What book would you like to bring on the trip"
+    },
+    {
+      "label": "Who can help?*",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_00wq3al",
+        "columns": null
+      },
+      "id": "Field_1wojzlm",
+      "key": "help",
+      "description": "Who do you want to ask for help"
+    },
+    {
+      "label": "Write request for help*",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0gmg51g",
+        "columns": null
+      },
+      "id": "Field_0msbzu5",
+      "key": "helpNote",
+      "description": "Say something convincing to get help scaping",
+      "validate": {
+        "required": true,
+        "pattern": "Please."
+      }
+    }
+  ],
+  "type": "default",
+  "id": "camunda-forms-deployment-askForHelp",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}
